@@ -1,0 +1,144 @@
+
+.flexbox{
+    background-color: rgb(82, 37, 4);
+    margin-top: 39px;
+    max-width: 114rem;
+    height: 56rem;
+  
+    z-index: 1;
+   .searchbar{
+       position: absolute;
+       top: 101rem;
+       left: 9rem;
+       font-size: 30px;
+    input{height: 50px;
+        width: 300px;
+        border-radius: 40px;}
+   }
+    .flexbox_img{
+        display: flex;
+        margin-top: 10rem;
+        // background-color: blanchedalmond;
+    
+    .card_area{
+        width: 76rem;
+        // height: 81vh;
+       
+        // border: 10px solid rgb(195, 0, 255);
+        .images_card_row1{
+            display: flex;
+            .column1of1{
+                width: calc(100%/3);
+                height: 15rem;
+                border: 3px solid greenyellow;
+                border-radius: 20px;
+                margin: 2rem .4rem;
+                transition: all;
+                transition-duration: .3s;
+                box-shadow: 4px 4px rgb(0, 0, 0);
+                 }     
+                 .image1{background-image:url("./images/photo2_1.jpg");
+                    background-size: cover;
+                    position: relative;
+                    left:122px;
+                    top: 132px;
+                    z-index: 1;
+                    &:hover{
+                        transform:scale(1.3);
+                        z-index:50;
+                    }
+                  }
+                  .image2{background-image:url("./images/photo2-2.jpg");
+                    background-size: cover;
+                    position: relative;
+                    z-index: 3;
+                    top: 53px;
+                    &:hover{
+                        transform:scale(1.2);
+                        z-index:50;
+                    }
+                  }
+                  .image3{background-image:url("./images/photo2_3.jpg");
+                    background-size: cover;
+                    position: relative;
+                    left: -122px;
+                    &:hover{
+                        transform:scale(1.2);
+                        z-index:50;
+                    }
+                    top: 132px;
+                    z-index: 1;
+                  }
+            
+        }
+            .images_card_row2{
+                display: flex;
+            .column1of2{
+                width: calc(100%/3);
+                height: 15rem;
+                border: 3px solid greenyellow;
+                margin-top: 60px;
+                margin: 2rem .4rem;
+                border-radius: 20px;
+            }
+            .image4{background-image:url("./images/photo2_4.jpg");
+                background-size: cover;
+                position: relative;
+                left: 122px;
+                top: 81px;
+                z-index: 1;
+                &:hover{
+                    transform: scale(1.2);
+                    z-index:50;
+                }
+              }
+              .image5{background-image:url("./images/photo2_5.jpg");
+                background-size: cover;
+                position: relative;
+                left: 0px;
+                top: 153px;
+                z-index: 1;
+                &:hover{
+                   transform: scale(1.2);
+                   z-index:50;
+                }
+              }
+              .image6{background-image:url("./images/photo2_6.jpg");
+                background-size: cover;
+                position: relative;
+                left: -122px;
+                top: 81px;
+                &:hover{
+                 transform: scale(1.2);
+                 z-index:50;
+                }
+              }
+
+        }
+    }
+}  
+      
+
+    
+    .search_area{
+        // width: 38rem;
+        // margin-top: 7rem;
+        // margin-left: 2px;
+        // height: 28rem;
+        // background-image:linear-gradient( rgba(0, 0, 0, 0.6)), url(./images/photo2_1.jpg);
+        // background-size: cover;
+        // border-radius: 51px;
+      
+        .tagline{
+            font-size: 60px;
+            color: chocolate;
+            padding: 8px;
+            margin-top: 300px;
+            text-align: center;
+            z-index: 3;
+            
+        }
+          
+    }
+
+}

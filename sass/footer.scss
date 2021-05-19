@@ -1,0 +1,43 @@
+.footer{
+    height: 18rem;
+    max-width: 114rem;
+    background-color: black;
+    .footer_flexbox{
+        display: flex;
+        
+    .footer_col0{
+        width: calc(100%/4);
+        margin: 78px 4px;
+    
+        height: 12rem;
+        text-align: center;
+        .footer_col4{
+
+            text-decoration: none;
+        }
+    }
+    }
+    .social_flex{
+        display: flex;
+        
+        height: 12rem;
+    .social_col0{
+        width: 49px;
+        height: 49px;
+        margin-left: 28px;
+        background-size: cover;
+    }
+    // // .social_col1{background-image: url("./images/twitter.png");}
+    // .social_col2{background-image: url("./images/facebook.png");}
+    // .social_col3{background-image: url("./images/instagram.png");}
+    // .social_col4{background-image: url("./images/whatsapp.png");}
+    
+}
+ .footer_col4{
+            a{
+                text-decoration: none;
+                color: gray;
+            }
+        }
+   
+}

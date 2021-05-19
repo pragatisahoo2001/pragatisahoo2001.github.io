@@ -1,0 +1,132 @@
+.specialities{
+    max-width: 114rem;
+    margin: 0rem auto;
+    // background-image: linear-gradient(to bottom,rgba(0, 0, 0, 0.9),rgba(0, 0, 0, 0.7)),
+    // url("./images/farhad-ibrahimzade-KpOl9jV2aJM-unsplash.jpg");
+    background-color: blanchedalmond;
+    background-repeat: repeat-y;
+    // height: 110rem;
+    
+  .specialities_heading{
+    text-align: center;
+    //   display: inline-block;
+      text-transform: uppercase;
+      position: relative;
+      top: 20px;
+      margin: 0 auto;
+      font-size:4rem ;
+      font-family:'Roboto', sans-serif ;
+    //   font-weight: 700;
+      background-image: linear-gradient(to right,rgb(134, 72, 0),rgb(252, 143, 0));
+     -webkit-background-clip: text;
+     color: transparent;
+     letter-spacing: .2rem;
+     transition: all;
+    &:hover{
+        transform:  scale(1.3);
+        letter-spacing: .4rem;
+
+    }
+  }
+.subhead{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 500;
+    position: relative;
+    top: 20px;
+    color: chocolate;
+    &:hover{
+        transform:  scale(1.1);
+        letter-spacing: .4rem;
+
+}
+}}
+.card_row{
+    color: black;
+    display: flex;
+    flex-direction: row;
+    margin-top: 90px;
+
+    // .description{
+    //     color: seashell;
+    //     padding: 20px;
+    //     padding-bottom: 0;
+    //     opacity: 0;
+    // }
+   
+}
+.col1of4{
+    width: calc((100%-3*4rem)/4);
+    height: 350px;
+    border: 2px solid greenyellow;
+    border-radius: 20px;
+    margin-right: 40px;
+    transition: all;
+    transition-duration: 0.5s;
+
+  
+}
+.col1{
+    background-image: url("./images/louis-hansel-KQR3ENYfrpw-unsplash.jpg");
+    background-size: cover;
+    margin-left: 20px;
+}
+.col2{
+    background-image: url("./images/joseph-gonzalez-fdlZBWIP0aM-unsplash.jpg");
+    background-size: cover;
+
+   
+}
+.col3{
+    background-image: url("./images/calum-lewis-8Nc_oQsc2qQ-unsplash.jpg");
+    background-size: cover;
+}
+.col4{
+    background-image: url("./images/joseph-gonzalez-zcUgjyqEwe8-unsplash.jpg");
+    background-size: cover;
+}
+.col1of4:hover{
+    
+    // transform:  scale(1.3);
+    transform:  scale(1.2) translateX(5px);
+   
+}
+.overlay{
+    color: seashell;
+    height: 350px;
+    opacity: 0;
+    padding: 20px;
+}
+.overlay:hover{
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 15px;
+    text-align: center;
+    opacity: 1;
+}
+.discount{font-size: 30px;
+    background-color: chocolate;
+    border-radius: 20px;
+    text-align: center;
+}
+.price{
+    background-color: chocolate;
+    font-size: 20px;
+    border-radius: 20px;
+    padding: 0 4px;
+    text-align: center;
+    position: absolute;
+    right: 10px;
+    bottom: 20px;
+    
+}
+.focus{ background-color: chocolate;
+    font-size: 20px;
+    border-radius: 20px;
+    padding: 0 5px;
+    text-align: center;
+    position: absolute;
+    left: 10px;
+    bottom: 20px;
+ }
+ 
+ 

@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    padding: 20px;
+    font-family:"Lato", Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size:16px ;
+    line-height: 1.7;
+    color: #777;
+    
+    
+
+}
+.header{
+    height: 100vh;
+    background-image:linear-gradient(to right bottom
+    ,rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)) ,url(restrant1.jpg);
+    opacity: .8;
+    background-size: cover;
+    background-position: top;
+}
+.text-box{
+    position: absolute;
+    top: 49%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.heading_primary{color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    margin-bottom: 60px;
+
+}
+.heading-primary-main{
+    font-size: 7rem;
+    display: block;
+    letter-spacing: 1rem;
+    animation-name: movedown;
+animation-duration: 2s;
+
+}
+.heading-primary-sub{
+    display: block;
+    font-size: 2rem;
+    letter-spacing: 2rem;
+    animation-name: moveup;
+    animation-duration: 2s;
+
+    
+}
+@keyframes movedown{
+    0%{opacity: 0;
+       transform: translateY(-60px);
+    }
+    
+    80%{
+transform: translateX(-40px);
+    }
+    100%{opacity: 1;
+        transform: translateY(0);
+        transform: translateX(0);
+
+    }
+}
+@keyframes moveup{
+    0%{opacity: 0;
+        transform: translateY(60px);
+     }
+     
+     80%{
+ transform: translateX(40px);
+     }
+     100%{opacity: 1;
+         transform: translateY(0);
+         transform: translateX(0);
+ 
+     }
+
+}
+@keyframes moveup2{
+    0%{opacity: 0;
+        transform: translateY(50px);
+     }
+     
+     80%{ transform: translateY(-20px);
+
+     }
+     100%{opacity: 1;
+         transform: translateY(0);
+         
+ 
+     }
+
+}
+.btn:link,.btn:visited{
+    
+    padding: 9px 38px;
+    text-decoration: none;
+    display: inline-block;
+    text-transform: uppercase;
+    border-radius: 100px;
+    animation-fill-mode: backwards;
+
+}
+.btn-white{
+
+    background-color: #fff;
+    color: #777;
+    animation: moveup2 1s ease-out .75s;
+}
+.logo{
+    filter: invert(100%);
+    position: fixed;
+    top: 2px;
+    left: 20px;
+   
+}
+.btn:hover{
+    border: 7px solid rgb(92, 91, 91);
+    color:black;
+    font-weight: bold;
+}
+.navbarlink li {
+display: block;
+float: right;
+list-style: none;
+margin: 20px;}
+
+.navbarlink li a  {
+   
+    text-transform: uppercase;
+    text-decoration: none;
+   
+    color: white;
+}
+.navli:hover{
+    transform: scale(1.5);
+
+}
+.row{
+    max-width: 100rem;
+    background-color: black;
+    margin: 4rem auto;
+    margin-bottom: 80px;
+
+}
+
+.column1-of3{
+    
+
+    max-width: calc((100%-2*6rem)/3);
+} 

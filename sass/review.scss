@@ -1,0 +1,133 @@
+.reviewpage{
+   
+    max-width: 114rem;
+    // background-image: linear-gradient(rgb(127, 226, 14),yellow);
+    margin-top: 110px;
+   
+    .review_heading{
+        text-align: center;
+        font-size: 3.5rem;
+    font-weight: 700;
+  
+    color: chocolate;
+    letter-spacing: 2.5px;
+
+    }
+    .reviewcol0{
+        width: calc(100%/4);
+        height: 30rem;
+      background-color: chocolate;
+    //    z-index: 1;
+     margin: 70px 30px;
+    border-radius: 30px;}
+   
+    .review1{
+           display: flex;
+          margin-left: 10px;
+           margin-top: 40px;
+         
+    }
+    .review2{
+        display: flex;
+       margin-left: 10px; 
+ }
+ .review_submit{
+     background-color: chocolate;
+     border-radius: 30px;
+     width: 21.5rem;
+     height: 30rem;
+     margin: -34.7rem 38px;
+     
+     display: flex;
+     flex-direction: column;
+     &:hover{
+         transform: scale(1.3) translateX(100px)
+         
+     }
+     input{
+        height: 31px;
+        margin: 10px;
+        border-radius: 7px;
+        width: 190px;
+        margin-left: 122px;
+        }
+
+        textarea{
+            border: 2px solid violet;
+            margin-top: 40px;
+            width: 318px;
+            border-radius: 30px;
+            text-align: center;
+            margin-left: 11px;
+            justify-content: center;
+        }
+        h3{
+            margin: 10px 40px;
+            color: cornsilk;
+        }
+        h4{
+            color: rgb(65, 27, 0);
+            position: relative;
+            top: 38px;
+            left: 25px;
+        }
+        button{
+            width: 150px;
+            height: 30px;
+            border-radius: 10px;
+            background-color: red;
+            margin: 30px 100px;
+            &:hover{
+                background-color: rgb(204, 61, 61);
+            }
+            &:active{
+                background-color: rgb(3, 192, 3);
+                
+            }
+        
+        }
+ }
+  .profile{
+      width: 150px;
+      height:150px;
+      border: 6px solid chocolate;
+      border-radius: 100px;
+      margin: -70px auto;
+      
+     }
+     .profile1{
+              background-image: url("./images/christiana-rivers-O_XIvDy0pcs-unsplash.jpg");
+          background-size: cover;
+               }
+        .profile2{
+              background-image: url("./images/tanjir-ahmed-chowdhury-4trdn4hm-lU-unsplash.jpg");
+          background-size: cover;
+               }   
+         .profile3{
+              background-image: url("./images/ben-parker-OhKElOkQ3RE-unsplash.jpg");
+          background-size: cover;
+               }      
+         .profile4{
+              background-image: url("./images/michael-dam-mEZ3PoFGs_k-unsplash.jpg");
+          background-size: cover;
+               }
+             .review_description{
+                color: rgb(77, 32, 0);
+                margin-top: 60px;
+                padding: 30px;
+             }
+             .reviewer{
+                 color: rgb(54, 29, 0);
+                 font-size: 20px;
+                 font-weight: 500;
+                 margin-right: 4px;
+                 text-transform: uppercase;
+                 margin-left: 243px;
+                 margin-top: 9px;
+             }
+        
+    //  .customer-review{
+    //      display: flex;
+    //  }
+    
+    }

@@ -1,0 +1,65 @@
+@import "sass/intro.scss";
+@import "sass/footer.scss";
+@import "sass/recommendation.scss";
+@import "sass/review.scss";
+
+
+@import "sass/specialisation.scss";
+@mixin clearfix { .top::after{
+    content: "";
+    display: table;
+    clear: both;
+}}
+html{
+    scroll-behavior: smooth;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    max-width: 100rem;
+    padding: 20px 10px;
+    font-family:'Roboto', sans-serif ,"Lato", Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size:16px ;
+    background-color: rgb(170, 170, 170);
+    line-height: 1.7;
+    color: #777;
+    
+  
+    
+    
+
+}
+
+
+
+  // .col1-text{
+    //     position:relative;
+    //     top: 296px;
+    //     left: 1px;
+    //     border-radius: 10px;
+    //     text-align: center;
+    //     font-size: 30px;
+    //     color: black;
+    //     background-color: rgb(58, 248, 0);
+    // }
+    // .overlay{
+    //     position: absolute;
+    //     top: 0;
+    //     left: 0;
+    //     color: rgba(0, 0, 0, 0.7);
+    //     width: 100%;
+    //     height: 100%;
+    //     background: rgba(0, 0, 0, 0.7);
+    // }
+        // .images_card{
+        //     height:80px;
+        //     width: 80px;
+        // }
+        
+
+                

@@ -1,0 +1,164 @@
+.flexbox {
+  background-color: #522504;
+  margin-top: 39px;
+  max-width: 114rem;
+  height: 56rem;
+  z-index: 1;
+}
+
+.flexbox .searchbar {
+  position: absolute;
+  top: 101rem;
+  left: 9rem;
+  font-size: 30px;
+}
+
+.flexbox .searchbar input {
+  height: 50px;
+  width: 300px;
+  border-radius: 40px;
+}
+
+.flexbox .flexbox_img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 10rem;
+}
+
+.flexbox .flexbox_img .card_area {
+  width: 76rem;
+}
+
+.flexbox .flexbox_img .card_area .images_card_row1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.flexbox .flexbox_img .card_area .images_card_row1 .column1of1 {
+  width: calc(100%/3);
+  height: 15rem;
+  border: 3px solid greenyellow;
+  border-radius: 20px;
+  margin: 2rem .4rem;
+  -webkit-transition: all;
+  transition: all;
+  -webkit-transition-duration: .3s;
+          transition-duration: .3s;
+  -webkit-box-shadow: 4px 4px black;
+          box-shadow: 4px 4px black;
+}
+
+.flexbox .flexbox_img .card_area .images_card_row1 .image1 {
+  background-image: url("./images/photo2_1.jpg");
+  background-size: cover;
+  position: relative;
+  left: 122px;
+  top: 132px;
+  z-index: 1;
+}
+
+.flexbox .flexbox_img .card_area .images_card_row1 .image1:hover {
+  -webkit-transform: scale(1.3);
+          transform: scale(1.3);
+  z-index: 50;
+}
+
+.flexbox .flexbox_img .card_area .images_card_row1 .image2 {
+  background-image: url("./images/photo2-2.jpg");
+  background-size: cover;
+  position: relative;
+  z-index: 3;
+  top: 53px;
+}
+
+.flexbox .flexbox_img .card_area .images_card_row1 .image2:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+  z-index: 50;
+}
+
+.flexbox .flexbox_img .card_area .images_card_row1 .image3 {
+  background-image: url("./images/photo2_3.jpg");
+  background-size: cover;
+  position: relative;
+  left: -122px;
+  top: 132px;
+  z-index: 1;
+}
+
+.flexbox .flexbox_img .card_area .images_card_row1 .image3:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+  z-index: 50;
+}
+
+.flexbox .flexbox_img .card_area .images_card_row2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.flexbox .flexbox_img .card_area .images_card_row2 .column1of2 {
+  width: calc(100%/3);
+  height: 15rem;
+  border: 3px solid greenyellow;
+  margin-top: 60px;
+  margin: 2rem .4rem;
+  border-radius: 20px;
+}
+
+.flexbox .flexbox_img .card_area .images_card_row2 .image4 {
+  background-image: url("./images/photo2_4.jpg");
+  background-size: cover;
+  position: relative;
+  left: 122px;
+  top: 81px;
+  z-index: 1;
+}
+
+.flexbox .flexbox_img .card_area .images_card_row2 .image4:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+  z-index: 50;
+}
+
+.flexbox .flexbox_img .card_area .images_card_row2 .image5 {
+  background-image: url("./images/photo2_5.jpg");
+  background-size: cover;
+  position: relative;
+  left: 0px;
+  top: 153px;
+  z-index: 1;
+}
+
+.flexbox .flexbox_img .card_area .images_card_row2 .image5:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+  z-index: 50;
+}
+
+.flexbox .flexbox_img .card_area .images_card_row2 .image6 {
+  background-image: url("./images/photo2_6.jpg");
+  background-size: cover;
+  position: relative;
+  left: -122px;
+  top: 81px;
+}
+
+.flexbox .flexbox_img .card_area .images_card_row2 .image6:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+  z-index: 50;
+}
+
+.flexbox .search_area .tagline {
+  font-size: 60px;
+  color: chocolate;
+  padding: 8px;
+  margin-top: 300px;
+  text-align: center;
+  z-index: 3;
+}
+/*# sourceMappingURL=recommendation.css.map */
